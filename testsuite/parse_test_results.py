@@ -6,7 +6,7 @@ import sys
 
 
 if len(sys.argv) != 3:
-	print"Usage: parse_test_results.py <infile_name> <outfile_name>"
+	print"Usage: parse_test_results.py <infile> <outfile>"
 	quit()
 
 infile_name = sys.argv[1]
@@ -26,7 +26,7 @@ suite = "NONE"
 #iterate over the lines in the file
 for line in infile:
 	tokens = line.split()
-
+	print tokens
 	#need to test length of tokens because there are some empty lines in the test output that
 	#crash the script if you ask for their first element
 	if len(tokens) > 0 and tokens[0] == "Running":

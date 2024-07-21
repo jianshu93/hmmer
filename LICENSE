@@ -1,53 +1,61 @@
-Easel - a library of C functions for biological sequence analysis
-Copyright (C) 1990-2023 Sean R. Eddy
+HMMER - Biological sequence analysis with profile hidden Markov models
+Copyright (C) 1992-2023 Sean R. Eddy
 Copyright (C) 2015-2023 President and Fellows of Harvard College
 Copyright (C) 2000-2023 Howard Hughes Medical Institute
 Copyright (C) 1995-2006 Washington University School of Medicine
-Copyright (C) 1992-1995 MRC Laboratory of Molecular Biology, UK
--------------------------------------------------------------------
+Copyright (C) 1992-1995 MRC Laboratory of Molecular Biology
+-----------------------------------------------------------------------
 
-Easel's code includes contributions from members of the Eddy/Rivas
-laboratory at Harvard University, the HMMER and Infernal development
-teams, and other colleagues, including:
+The code includes contributions and input from current and past
+members of the HMMER development team, as well as other colleagues and
+sources, including:
 
-   Tyler Camp        
-   Nick Carter       
+   Bill Arndt        
+   Jeremy Buhler     
+   Tyler Camp
+   Nick Carter        
+   Sergi Castellano  
+   Goran Ceric       
    Michael Farrar    
+   Rob Finn          
+   Ian Holmes        
+   Bjarne Knudsen    
+   Diana Kolbe       
+   Martin Larralde
+   Erik Lindahl      
    Graeme Mitchison  
    Eric Nawrocki     
+   Lee Newberg       
    Sam Petti
-   Elena Rivas       
+   Elena Rivas        
+   Walt Shands  
    Travis Wheeler    
 
-Easel also includes code we have incorporated from other sources and
-authors -- including public domain code, and licensed copyrighted
-code. Sources and licenses are noted in the appropriate places in
-individual files. Copyright holders and contributors include:
+HMMER also includes copyrighted and licensed code that has been
+incorporated from other sources, including:
 
-   Barry W. Brown, James Lovato        esl_random:esl_rnd_Gaussian()   
-   Bob Jenkins                         esl_random::esl_rnd_mix3()
-   Steven G. Johnson, and others       autoconf macros in m4/
-   Martin Larralde                     ARM Neon support
-   Kevin Lawler                        esl_rand64::esl_rand64_Deal()
-   Stephen Moshier                     SIMD vectorized logf,expf
-   Takuji Nishimura, Makoto Matsumoto  esl_random, esl_rand64
-   Julien Pommier                      SIMD vectorized logf,expf
-   David Robert Nadeau                 esl_stopwatch
-   Henry Spencer                       esl_regexp
-   David Wheeler                       easel::esl_tmpfile()
-   Free Software Foundation, Inc.      configure	
-   FreeBSD 		               easel::esl_strsep()
-   Sun Microsystems, Inc.              esl_stats::esl_erfc()
+   Yuta Mori (libdivsufsort-lite)
+   Apple Computer                  
+   Free Software Foundation, Inc.  
+   IBM TJ Watson Research Center   
+   X Consortium                    
 
-Easel development is supported in part by the National Human Genome
+HMMER uses the Easel software library, which has its own license and
+copyright information. See easel/LICENSE.
+
+HMMER includes patent-pending SIMD technology under a nonexclusive
+license from the estate of Michael Farrar. You are sublicensed to use
+this technology specifically for the use, modification, and
+redistribution of HMMER.
+
+HMMER development is supported in part by the National Human Genome
 Research Institute of the US National Institutes of Health under grant
 number R01HG009116. The content is solely the responsibility of the
 authors and does not necessarily represent the official views of the
 National Institutes of Health.
 
-The Easel library is open source software. It is freely distributed
-under the terms of the BSD (Berkeley Software Distribution) open
-source license:
+HMMER source code is distributed as open source under the terms of the
+BSD three-clause license:
 
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions
@@ -60,6 +68,10 @@ source license:
       copyright notice, this list of conditions and the following
       disclaimer in the documentation and/or other materials provided
       with the distribution.
+
+   3. Neither the name of any copyright holder nor the names of 
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
 
    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
@@ -74,4 +86,10 @@ source license:
    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
    OF THE POSSIBILITY OF SUCH DAMAGE.
 
+
+
+
+
+
+   
 
